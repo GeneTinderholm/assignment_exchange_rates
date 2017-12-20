@@ -28,7 +28,7 @@ const ForEx = ({ currency, date, rates, isFetching }) => {
           <h2>Date:</h2>
           <p>{date}</p>
           <h2>Rates:</h2>
-          <p>{ratesArray}</p>
+          <div>{ratesArray}</div>
         </div>
       )}
     </div>
