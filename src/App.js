@@ -44,7 +44,6 @@ class App extends Component {
       .then(response => response.json())
       .then(json =>
         this.setState({
-          currency: json.base,
           rates: json.rates,
           isFetching: false
         })
